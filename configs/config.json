@@ -3,12 +3,16 @@
       "base_url": "https://api.open-meteo.com/v1/forecast",
       "parameters": {
         "current": "temperature_2m,relative_humidity_2m,wind_speed_10m",
-        "hourly": "temperature_2m"
+        "hourly": "temperature_2m,relative_humidity_2m,wind_speed_10m"
       }
     },
     "cities": [
-      {"name": "London", "latitude": 51.508, "longitude": -0.126},
       {"name": "New York", "latitude": 40.7128, "longitude": -74.0060},
+      {"name": "London", "latitude": 51.5074, "longitude": -0.1278},
       {"name": "Tokyo", "latitude": 35.6762, "longitude": 139.6503}
-    ]
+    ],
+    "data": {
+        "raw_data_path": "../data/raw",
+        "processed_data_path": "../data/processed"
+    }
   }
