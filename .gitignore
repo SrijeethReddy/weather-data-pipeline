@@ -39,6 +39,10 @@ ENV/
 data/*
 !data/.gitkeep
 
+# Config files
+configs/*.json
+!configs/config.json
+
 # Logs
 *.log
 logs/
